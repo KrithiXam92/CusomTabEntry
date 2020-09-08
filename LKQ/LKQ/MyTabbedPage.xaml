@@ -1,0 +1,40 @@
+﻿<!--<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:entry="clr-namespace:LKQ.Control" x:Class="LKQ.MyTabbedPage">
+  
+    <ContentPage Title="Tab 1" >
+        <entry:CustomEntry
+            VerticalOptions="Start" HorizontalOptions="FillAndExpand"
+                 BackgroundColor="#CBCEEC" BorderColor="Black" BorderThickness="2" CornerRadius="0"/>
+    </ContentPage>
+    <ContentPage Title="Tab 2" />
+    <ContentPage Title="Tab 3" />
+</TabbedPage>-->
+
+
+<controls:ExtendedTabbedPage  xmlns:entry="clr-namespace:LKQ.Control" xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+           x:Class="LKQ.MyTabbedPage"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+      
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             android:TabbedPage.BarItemColor="Black"
+             android:TabbedPage.BarSelectedItemColor="Black"
+             BarBackgroundColor="LightGray"
+             
+             BarTextColor="Black" 
+             xmlns:controls="clr-namespace:LKQ">
+    <!--android:TabbedPage.ToolbarPlacement="Bottom"
+             android:TabbedPage.BarItemColor="Black"
+             android:TabbedPage.BarSelectedItemColor="Black"-->
+    <controls:ExtendedTabbedPage.Children>
+        <ContentPage Title="Sales" Padding="15">
+            <entry:CustomEntry
+            VerticalOptions="Start" HorizontalOptions="FillAndExpand"
+                 BackgroundColor="#CBCEEC" BorderColor="Black" BorderThickness="2" CornerRadius="0"/>
+        </ContentPage>
+        <ContentPage Title="Trn" BackgroundColor="White"/>
+        <ContentPage Title="Proc"  x:Name="home" BackgroundColor="White"/>
+        <ContentPage Title="Inq"  BackgroundColor="White"/>
+        <ContentPage Title="Lbls"  BackgroundColor="White"/>
+    </controls:ExtendedTabbedPage.Children>
+</controls:ExtendedTabbedPage>

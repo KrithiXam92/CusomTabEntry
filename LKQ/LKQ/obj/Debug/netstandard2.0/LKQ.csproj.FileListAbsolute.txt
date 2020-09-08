@@ -1,0 +1,16 @@
+/Users/krithika/Projects/LKQ/LKQ/bin/Debug/netstandard2.0/LKQ.deps.json
+/Users/krithika/Projects/LKQ/LKQ/bin/Debug/netstandard2.0/LKQ.dll
+/Users/krithika/Projects/LKQ/LKQ/bin/Debug/netstandard2.0/ref/LKQ.dll
+/Users/krithika/Projects/LKQ/LKQ/bin/Debug/netstandard2.0/LKQ.pdb
+/Users/krithika/Projects/LKQ/LKQ/obj/Debug/netstandard2.0/LKQ.csprojAssemblyReference.cache
+/Users/krithika/Projects/LKQ/LKQ/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/krithika/Projects/LKQ/LKQ/obj/Debug/netstandard2.0/CustomTabbedPage.xaml.g.cs
+/Users/krithika/Projects/LKQ/LKQ/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/krithika/Projects/LKQ/LKQ/obj/Debug/netstandard2.0/MyTabbedPage.xaml.g.cs
+/Users/krithika/Projects/LKQ/LKQ/obj/Debug/netstandard2.0/LKQ.AssemblyInfoInputs.cache
+/Users/krithika/Projects/LKQ/LKQ/obj/Debug/netstandard2.0/LKQ.AssemblyInfo.cs
+/Users/krithika/Projects/LKQ/LKQ/obj/Debug/netstandard2.0/LKQ.csproj.CoreCompileInputs.cache
+/Users/krithika/Projects/LKQ/LKQ/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/krithika/Projects/LKQ/LKQ/obj/Debug/netstandard2.0/LKQ.dll
+/Users/krithika/Projects/LKQ/LKQ/obj/Debug/netstandard2.0/ref/LKQ.dll
+/Users/krithika/Projects/LKQ/LKQ/obj/Debug/netstandard2.0/LKQ.pdb

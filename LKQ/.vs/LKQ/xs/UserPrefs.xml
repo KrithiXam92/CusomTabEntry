@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{1BF0D271-86D6-40A9-95DF-9B89A43FD80E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LKQ.Android/CustomRenderer/ExtendedTabbedPageRenderer.cs">
+    <Files>
+      <File FileName="LKQ/Control/CustomEntry.cs" Line="37" Column="6" />
+      <File FileName="LKQ/CustomTabbedPage.xaml.cs" />
+      <File FileName="LKQ/App.xaml.cs" />
+      <File FileName="LKQ/MyTabbedPage.xaml" />
+      <File FileName="LKQ/MyTabbedPage.xaml.cs" />
+      <File FileName="LKQ/ExtendedTabbedPage.cs" />
+      <File FileName="LKQ.Android/CustomRenderer/ExtendedTabbedPageRenderer.cs" Line="175" Column="67" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="LKQ" expanded="True">
+            <Node name="LKQ.Android" expanded="True">
+              <Node name="CustomRenderer" expanded="True">
+                <Node name="ExtendedTabbedPageRenderer.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LKQ.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.galaxy_nexus_q_10_0_-_api_29" />
+  <MonoDevelop.Ide.ItemProperties.LKQ.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
