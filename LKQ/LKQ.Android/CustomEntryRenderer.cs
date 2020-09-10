@@ -59,6 +59,9 @@ namespace LKQ.Droid.CustomRenderer
 
 
         }
-
+        protected void UpdateBackground()
+        {
+            UpdateBackground(Control);
+        }
     }
 }

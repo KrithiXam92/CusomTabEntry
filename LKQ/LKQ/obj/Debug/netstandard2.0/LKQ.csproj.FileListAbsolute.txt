@@ -18,7 +18,6 @@
 /Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/bin/Debug/netstandard2.0/LKQ.dll
 /Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/bin/Debug/netstandard2.0/ref/LKQ.dll
 /Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/bin/Debug/netstandard2.0/LKQ.pdb
-/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/obj/Debug/netstandard2.0/LKQ.csprojAssemblyReference.cache
 /Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/obj/Debug/netstandard2.0/CustomTabbedPage.xaml.g.cs
 /Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/obj/Debug/netstandard2.0/MainPage.xaml.g.cs

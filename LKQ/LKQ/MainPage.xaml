@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LKQ.MainPage">
-    <Grid RowDefinitions="8*,60,75"  RowSpacing="0" ColumnSpacing="0" BackgroundColor="White">
-        <CollectionView x:Name="cv" >
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:entry="clr-namespace:LKQ.Control" x:Class="LKQ.MainPage">
+    <Grid RowDefinitions="*,*,60,75"  RowSpacing="0" ColumnSpacing="0" BackgroundColor="White">
+        <CollectionView x:Name="cv" Grid.Row="0">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
@@ -10,14 +10,26 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <Grid Grid.Row="1" ColumnDefinitions="Auto,*,*,*,*" BackgroundColor="Black"  Padding="0,5,0,2" ColumnSpacing="2" RowSpacing="0">
+        <StackLayout Grid.Row="1" Padding="10">
+            <entry:CustomEntry
+           
+                Style="{StaticResource CustomEntryStyle}"/>
+            <entry:CustomEditor HeightRequest="150"
+
+                Style="{StaticResource CustomEditorStyle}"/>
+            <entry:CustomPicker
+                            Title="..." TextColor="#CBCEEC"
+                            Image="downarrow"
+                            Style="{StaticResource CustomPickerStyle}" />
+        </StackLayout>
+        <Grid Grid.Row="2" ColumnDefinitions="Auto,*,*,*,*" BackgroundColor="Black"  Padding="0,5,0,2" ColumnSpacing="2" RowSpacing="0">
             <Button x:Name="sales" Text="Sales"  Grid.Column="0" Style="{StaticResource ListButtonStyle}"  Clicked="Button_Clicked"/>
             <Button x:Name="trn" Grid.Column="1"  Style="{StaticResource ListButtonStyle}" Text="Trn"  Clicked="Button_Clicked"/>
             <Button x:Name="proc"  Grid.Column="2" Style="{StaticResource ListButtonStyle}"  Text="Proc"  Clicked="Button_Clicked"/>
             <Button x:Name="inq"  Grid.Column="3" Style="{StaticResource ListButtonStyle}"  Text="Inq"  Clicked="Button_Clicked"/>
             <Button x:Name="lbls" Grid.Column="4" Style="{StaticResource ListButtonStyle}"  Text="Lbls"  Clicked="Button_Clicked"/>
         </Grid>
-        <StackLayout Padding="0" Orientation="Horizontal"  Grid.Row="2" Spacing="0">
+        <StackLayout Padding="0" Orientation="Horizontal"  Grid.Row="3" Spacing="0">
             <Button  Text="Logout" HorizontalOptions="FillAndExpand"/>
             <Button  Text="Status" HorizontalOptions="FillAndExpand"/>
             <Button  Text="Exit" HorizontalOptions="FillAndExpand"/>
