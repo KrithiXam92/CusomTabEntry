@@ -10,7 +10,7 @@ namespace LKQ
         {
             InitializeComponent();
 
-            MainPage = new MyTabbedPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

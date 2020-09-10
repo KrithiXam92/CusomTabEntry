@@ -1,20 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LKQ.MainPage">
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" />
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10" />
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0" />
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at " />
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold" />
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
+    <Grid RowDefinitions="8*,*,*"  RowSpacing="0">
+        <CollectionView x:Name="cv">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10">
+                        <Button Text="{Binding .}" TextColor="DarkBlue" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Grid Grid.Row="1" ColumnDefinitions="Auto,*,*,*,*" BackgroundColor="Black"  Padding="0,5,0,2" ColumnSpacing="2" RowSpacing="0">
+            <Button x:Name="sales" TextTransform="None" CornerRadius="0" Grid.Column="0" Padding="0" Text="Sales" TextColor="Black" BackgroundColor="#CBCEEC" FontSize="30" Clicked="Button_Clicked"/>
+            <Button x:Name="trn" TextTransform="None" CornerRadius="0" Grid.Column="1" Padding="0" Text="Trn" TextColor="Black" BackgroundColor="#CBCEEC" FontSize="30" Clicked="Button_Clicked"/>
+            <Button x:Name="proc" TextTransform="None" CornerRadius="0" Grid.Column="2" Padding="0" Text="Proc" TextColor="Black" BackgroundColor="#CBCEEC" FontSize="30" Clicked="Button_Clicked"/>
+            <Button x:Name="inq" TextTransform="None" CornerRadius="0" Grid.Column="3" Padding="0" Text="Inq" TextColor="Black" BackgroundColor="#CBCEEC" FontSize="30" Clicked="Button_Clicked"/>
+            <Button x:Name="lbls" TextTransform="None" CornerRadius="0" Grid.Column="4" Padding="0" Text="Lbls" TextColor="Black" BackgroundColor="#CBCEEC" FontSize="30" Clicked="Button_Clicked"/>
+        </Grid>
+        <Grid Grid.Row="2" ColumnDefinitions="*,*,*" ColumnSpacing="0">
+            <Button Grid.Column="0" Text="Logout"/>
+            <Button Grid.Column="1" Text="Status"/>
+            <Button Grid.Column="2" Text="Exit"/>
+        </Grid>
+    </Grid>
 </ContentPage>

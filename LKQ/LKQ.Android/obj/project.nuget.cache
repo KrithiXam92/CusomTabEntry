@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WGdhSFNwTAEq/NMmsh9NYh/1dPY5UGf5IbefZ79stCy+fwvsdJm4uXf8vOSx+wazjTfBAJBqDOJInyZi2HcoVQ==",
+  "dgSpecHash": "LkHC4lqIUr03K+t8/tTbK/Paw7C02W6qBoR9QqCNpMH4cAQS68hGe+MEqFXP/U8wwksA2QgPdfGg75vkLKmnfQ==",
   "success": true,
   "projectFilePath": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ.Android/LKQ.Android.csproj",
   "expectedPackageFiles": [
@@ -42,7 +42,7 @@
     "/Users/krithika/.nuget/packages/xamarin.android.support.versionedparcelable/28.0.0.3/xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "/Users/krithika/.nuget/packages/xamarin.android.support.viewpager/28.0.0.3/xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
     "/Users/krithika/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/krithika/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "/Users/krithika/.nuget/packages/xamarin.forms/4.8.0.1364/xamarin.forms.4.8.0.1364.nupkg.sha512"
   ],
   "logs": []
 }

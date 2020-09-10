@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "riLQWVEU/rpjsg+RiZLj7gtpmOtwRiKyJBUHE6WvjpvrU7reFdIIfrKTc0GgXl0Hfb1VrNmZZRtcm8tFWsDtvQ==",
+  "dgSpecHash": "uAmDgGzoS+PbFsVoTXI4HI3QLp3KiAoaRgpNr9SknzP/5qwve5dHoXjv46dUEqmS7aEJQGCFaqkCDYNJD03WLQ==",
   "success": true,
   "projectFilePath": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/LKQ.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "/Users/krithika/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/krithika/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/krithika/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/krithika/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "/Users/krithika/.nuget/packages/xamarin.forms/4.8.0.1364/xamarin.forms.4.8.0.1364.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "anuBNc5FMbKvVY6N70tdwYzJSMnpX49inotDPhELkSCf7mAF9jRvK5EaHJQmnZtk2YvDV0ps9Wr1hIJtVfI6iA==",
+  "dgSpecHash": "8dZwss89bZfl/nFYH0lCeBpjd7Zkkw/M13BYiJTajZJ1FizeI5r0xrkYERiZWrmjxBZVdhuKnOFxKTUFKRb3pA==",
   "success": true,
   "projectFilePath": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ.iOS/LKQ.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/krithika/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/krithika/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "/Users/krithika/.nuget/packages/xamarin.forms/4.8.0.1364/xamarin.forms.4.8.0.1364.nupkg.sha512"
   ],
   "logs": []
 }
