@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LKQ.MainPage">
-    <Grid RowDefinitions="8*,*,*"  RowSpacing="0">
-        <CollectionView x:Name="cv">
+    <Grid RowDefinitions="8*,60,75"  RowSpacing="0" ColumnSpacing="0" BackgroundColor="White">
+        <CollectionView x:Name="cv" >
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Grid Padding="10">
-                        <Button Text="{Binding .}" TextColor="DarkBlue" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                    <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+                        <Button Text="{Binding .}" Margin="0,2" BorderColor="SkyBlue" CornerRadius="3"  TextColor="DarkBlue" BackgroundColor="SkyBlue" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
         <Grid Grid.Row="1" ColumnDefinitions="Auto,*,*,*,*" BackgroundColor="Black"  Padding="0,5,0,2" ColumnSpacing="2" RowSpacing="0">
-            <Button x:Name="sales" TextTransform="None" CornerRadius="0" Grid.Column="0" Padding="0" Text="Sales" TextColor="Black" BackgroundColor="#CBCEEC" FontSize="30" Clicked="Button_Clicked"/>
-            <Button x:Name="trn" TextTransform="None" CornerRadius="0" Grid.Column="1" Padding="0" Text="Trn" TextColor="Black" BackgroundColor="#CBCEEC" FontSize="30" Clicked="Button_Clicked"/>
-            <Button x:Name="proc" TextTransform="None" CornerRadius="0" Grid.Column="2" Padding="0" Text="Proc" TextColor="Black" BackgroundColor="#CBCEEC" FontSize="30" Clicked="Button_Clicked"/>
-            <Button x:Name="inq" TextTransform="None" CornerRadius="0" Grid.Column="3" Padding="0" Text="Inq" TextColor="Black" BackgroundColor="#CBCEEC" FontSize="30" Clicked="Button_Clicked"/>
-            <Button x:Name="lbls" TextTransform="None" CornerRadius="0" Grid.Column="4" Padding="0" Text="Lbls" TextColor="Black" BackgroundColor="#CBCEEC" FontSize="30" Clicked="Button_Clicked"/>
+            <Button x:Name="sales" Text="Sales"  Grid.Column="0" Style="{StaticResource ListButtonStyle}"  Clicked="Button_Clicked"/>
+            <Button x:Name="trn" Grid.Column="1"  Style="{StaticResource ListButtonStyle}" Text="Trn"  Clicked="Button_Clicked"/>
+            <Button x:Name="proc"  Grid.Column="2" Style="{StaticResource ListButtonStyle}"  Text="Proc"  Clicked="Button_Clicked"/>
+            <Button x:Name="inq"  Grid.Column="3" Style="{StaticResource ListButtonStyle}"  Text="Inq"  Clicked="Button_Clicked"/>
+            <Button x:Name="lbls" Grid.Column="4" Style="{StaticResource ListButtonStyle}"  Text="Lbls"  Clicked="Button_Clicked"/>
         </Grid>
-        <Grid Grid.Row="2" ColumnDefinitions="*,*,*" ColumnSpacing="0">
-            <Button Grid.Column="0" Text="Logout"/>
-            <Button Grid.Column="1" Text="Status"/>
-            <Button Grid.Column="2" Text="Exit"/>
-        </Grid>
+        <StackLayout Padding="0" Orientation="Horizontal"  Grid.Row="2" Spacing="0">
+            <Button  Text="Logout" HorizontalOptions="FillAndExpand"/>
+            <Button  Text="Status" HorizontalOptions="FillAndExpand"/>
+            <Button  Text="Exit" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
     </Grid>
 </ContentPage>
