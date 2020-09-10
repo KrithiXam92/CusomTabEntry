@@ -30,7 +30,7 @@
         <ContentPage Title="Sales" Padding="15">
             <entry:CustomEntry
             VerticalOptions="Start" HorizontalOptions="FillAndExpand"
-                 BackgroundColor="#CBCEEC" BorderColor="Black" BorderThickness="2" CornerRadius="0"/>
+                Style="{StaticResource CustomEntryStyle}"/>
         </ContentPage>
         <ContentPage Title="Trn" BackgroundColor="White"/>
         <ContentPage Title="Proc"  x:Name="home" BackgroundColor="White"/>

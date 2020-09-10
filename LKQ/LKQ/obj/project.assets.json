@@ -633,11 +633,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ/LKQ.csproj",
+      "projectUniqueName": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/LKQ.csproj",
       "projectName": "LKQ",
-      "projectPath": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ/LKQ.csproj",
+      "projectPath": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/LKQ.csproj",
       "packagesPath": "/Users/krithika/.nuget/packages/",
-      "outputPath": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ/obj/",
+      "outputPath": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/krithika/.config/NuGet/NuGet.Config"

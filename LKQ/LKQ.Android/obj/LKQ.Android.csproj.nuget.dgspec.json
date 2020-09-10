@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ.Android/LKQ.Android.csproj": {}
+    "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ.Android/LKQ.Android.csproj": {}
   },
   "projects": {
-    "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ.Android/LKQ.Android.csproj": {
+    "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ.Android/LKQ.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ.Android/LKQ.Android.csproj",
+        "projectUniqueName": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ.Android/LKQ.Android.csproj",
         "projectName": "LKQ.Android",
-        "projectPath": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ.Android/LKQ.Android.csproj",
+        "projectPath": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ.Android/LKQ.Android.csproj",
         "packagesPath": "/Users/krithika/.nuget/packages/",
-        "outputPath": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ.Android/obj/",
+        "outputPath": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ/LKQ.csproj": {
-                "projectPath": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ/LKQ.csproj"
+              "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/LKQ.csproj": {
+                "projectPath": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/LKQ.csproj"
               }
             }
           }
@@ -48,14 +48,14 @@
         }
       }
     },
-    "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ/LKQ.csproj": {
+    "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/LKQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ/LKQ.csproj",
+        "projectUniqueName": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/LKQ.csproj",
         "projectName": "LKQ",
-        "projectPath": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ/LKQ.csproj",
+        "projectPath": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/LKQ.csproj",
         "packagesPath": "/Users/krithika/.nuget/packages/",
-        "outputPath": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ/obj/",
+        "outputPath": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/krithika/.config/NuGet/NuGet.Config"

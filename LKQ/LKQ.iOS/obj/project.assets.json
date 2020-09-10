@@ -983,11 +983,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ.iOS/LKQ.iOS.csproj",
+      "projectUniqueName": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ.iOS/LKQ.iOS.csproj",
       "projectName": "LKQ.iOS",
-      "projectPath": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ.iOS/LKQ.iOS.csproj",
+      "projectPath": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ.iOS/LKQ.iOS.csproj",
       "packagesPath": "/Users/krithika/.nuget/packages/",
-      "outputPath": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ.iOS/obj/",
+      "outputPath": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1002,8 +1002,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ/LKQ.csproj": {
-              "projectPath": "/Users/krithika/Desktop/LKQcustom/LKQ/LKQ/LKQ.csproj"
+            "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/LKQ.csproj": {
+              "projectPath": "/Users/krithika/Documents/GitHub/CusomTabEntry/LKQ/LKQ/LKQ.csproj"
             }
           }
         }
