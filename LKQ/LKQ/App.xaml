@@ -31,7 +31,7 @@
             <Setter Property="BorderColor" Value="Black" />
             <Setter Property="BorderThickness" Value="3" />
             <Setter Property="CornerRadius" Value="0" />
-            <Setter Property="TitleColor" Value="Black" />
+            <Setter Property="TitleColor" Value="#CBCEEC" />
             <Setter Property="HeightRequest" Value="50" />
         </Style>
 

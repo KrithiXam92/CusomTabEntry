@@ -18,8 +18,8 @@
 
                 Style="{StaticResource CustomEditorStyle}"/>
             <entry:CustomPicker
-                            Title="..." TextColor="#CBCEEC"
-                            Image="downarrow"
+                            Title="..." 
+                            Image="downarrow"  
                             Style="{StaticResource CustomPickerStyle}" />
         </StackLayout>
         <Grid Grid.Row="2" ColumnDefinitions="Auto,*,*,*,*" BackgroundColor="Black"  Padding="0,5,0,2" ColumnSpacing="2" RowSpacing="0">
